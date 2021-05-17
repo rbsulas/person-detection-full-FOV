@@ -22,7 +22,7 @@
  * On the OV7670 the resolutions QVGA and QQVGA are downsampled
  * without cropping, thus keeping the full field of view.
  * If we use QQVGA we have the full field of view downsampled to the
- * resolution (160 x 120) closest to the one of out final frame (96 x 96)
+ * resolution (160 x 120) closest to the one of our final frame (96 x 96)
  * thus minimizing the FOV lost during cropping.
  * On the OV7675 the sub resolutions are probably all cropped so this
  * would not work.
